@@ -1,0 +1,19 @@
+.table {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 10px;
+	/* justify-content:; */
+	/* text-justify: distribute; */
+
+}
+
+.row {
+	/* Optional */
+}
+
+.column {
+	/* float: left; */
+	margin: 1px;
+	border: 1px solid black;
+	text-align: center;
+}

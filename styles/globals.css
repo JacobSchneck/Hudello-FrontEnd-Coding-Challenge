@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.basic-container {
+	border: 1px solid black;
+	padding: 10px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Team Grid!!! */
+.form {
+	display: grid;
+	justify-content: center;
 }
 
-* {
-  box-sizing: border-box;
+.color-container {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: rgb(189, 218, 241);
+}
+
+.table {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 10px;
 }

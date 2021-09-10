@@ -1,0 +1,9 @@
+.app-container {
+	text-align: center;
+}
+
+.app-header {
+	border: 1px black;
+	font-size: x-large;
+	font-family: 'Times New Roman', Times, serif;
+}
