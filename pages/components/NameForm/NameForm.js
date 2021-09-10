@@ -9,8 +9,8 @@ const NameForm = ({name, setName, formsCompleted, setFormsCompleted}) => {
 
   //TODO: Should validate name here 
 	const submitName = (event) => {
-		if (firstname === "" || lastname === "") return;
 		event.preventDefault();
+		if (firstname === "" || lastname === "") return;
 		if (name === "") setFormsCompleted(formsCompleted + 1);
 		setName(`${firstname} ${lastname}`)
 	}
