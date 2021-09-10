@@ -13,8 +13,9 @@ const BirthdayForm = ({formsCompleted, setFormsCompleted, birthday, setBirthday}
   // TODO: Should validate Birthday here 
   const submitBirthday = (event) => {
     event.preventDefault();
+    if (tempBirthday === "") return;
     if (birthday === "") setFormsCompleted(formsCompleted + 1);
-	 setBirthday(tempBirthday);
+    setBirthday(tempBirthday);
   }
 
   return (

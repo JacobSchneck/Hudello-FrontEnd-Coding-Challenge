@@ -8,6 +8,7 @@ const PronounsForm = ({pronouns, formsCompleted, setFormsCompleted, setPronouns}
 
   const submitPronouns = (event) => {
     event.preventDefault();  
+	 if (tempPronouns === "") return;
     if (pronouns === "") setFormsCompleted(formsCompleted + 1);
 	 setPronouns(tempPronouns);
   }
